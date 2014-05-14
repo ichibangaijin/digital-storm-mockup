@@ -17,12 +17,10 @@ select,
 textarea {
     color: #222;
 }
-
 html {
     font-size: 1em;
     line-height: 1.4;
 }
-
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -33,12 +31,10 @@ html {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 ::selection {
     background: #b3d4fc;
     text-shadow: none;
 }
-
 /*
  * A better looking default horizontal rule
  */
@@ -51,7 +47,6 @@ hr {
     margin: 1em 0;
     padding: 0;
 }
-
 /*
  * Remove the gap between images, videos, audio and canvas and the bottom of
  * their containers: h5bp.com/i/440
@@ -63,7 +58,6 @@ img,
 video {
     vertical-align: middle;
 }
-
 /*
  * Remove default fieldset styles.
  */
@@ -73,7 +67,6 @@ fieldset {
     margin: 0;
     padding: 0;
 }
-
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -81,7 +74,6 @@ fieldset {
 textarea {
     resize: vertical;
 }
-
 /* ==========================================================================
    Browse Happy prompt
    ========================================================================== */
@@ -92,222 +84,164 @@ textarea {
     color: #000;
     padding: 0.2em 0;
 }
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-
-
 html {
     width: 100%;
-    min-width:1200px;
+    min-width: 1200px;
     height: auto;
 }
-
 #main-wrapper {
     width: 1200px;
-    margin:auto;
-    position:relative;
- }
-
+    margin: auto;
+    position: relative;
+}
 a {
-    color:white;
+    color: white;
     text-decoration: none;
 }
-
 a:hover {
-    color:gray;
+    color: gray;
 }
-
 hr {
     width: 900px;
-    margin:auto;
-
+    margin: auto;
 }
-
 nav#navbar {
-    width:100%;
-    display:block;
-    height:100px;
-    background:linear-gradient(black 65%, white);
-
+    width: 100%;
+    display: block;
+    height: 100px;
+    background: linear-gradient(black 65%, white);
 }
-
 #nav-logo {
     margin: 10px 0 0 10%;
-  }
-
-nav ul {
-    list-style:none;
-    text-decoration:none !important;
-    margin-top: -40px;
-    text-align:right;
-    margin-right:100px;
-  }
-
-nav li {
-    color:white;
-    display:inline-block;
-    margin-right:10px;
-    font-family:  "andika";
-    font-size: 15px;
-
-
-  }
-
-header h1 {
- font-family: orbitron, verdana, sans-serif;
-    color:#2f2e2e;
-    font-size:50px;
-    text-align:center;
 }
-
+nav ul {
+    list-style: none;
+    text-decoration: none !important;
+    margin-top: -40px;
+    text-align: right;
+    margin-right: 100px;
+}
+nav li {
+    color: white;
+    display: inline-block;
+    margin-right: 10px;
+    font-family: "andika";
+    font-size: 15px;
+}
+header h1 {
+    font-family: orbitron, verdana, sans-serif;
+    color: #2f2e2e;
+    font-size: 50px;
+    text-align: center;
+}
 h3 {
     font-family: lekton, sans-serif;
-    color:#4d4444;
-    font-size:25px;
+    color: #4d4444;
+    font-size: 25px;
     width: 60%;
-    margin:auto;
-
+    margin: auto;
 }
-
 #supercharged {
-    font-size:25px;
+    font-size: 25px;
     font-family: lekton;
-    display:block;
-    color:white;
-    background-color:#345479;
-    padding:12px;
-    margin:auto;
+    display: block;
+    color: white;
+    background-color: #345479;
+    padding: 12px;
+    margin: auto;
     width: 200px;
-    box-shadow:2px 2px 5px black;
-    border-radius:2px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 2px;
 }
-
 #supercharged:hover {
-    background-color:
-        ;
-    }
-
+    background-color: ;
+}
 #main-image {
-    display:block;
-    width:600px;
-    height:500px;
-    background-image:url(../img/oldtrs80.gif);
-    background-repeat:no-repeat;
+    display: block;
+    width: 600px;
+    height: 500px;
+    background-image: url(../img/oldtrs80.gif);
+    background-repeat: no-repeat;
     background-size: 100%;
-    background-position:center;
+    background-position: center;
     margin: 0 auto;
-
-
-
 }
-
-
 #main-image-alternate {
-
-     width:600px;
-    height:500px;
-    background-image:url(../img/TRS-80_Model_3_01.gif);
-    background-repeat:no-repeat;
+    width: 600px;
+    height: 600px;
+    background-image: url(../img/TRS-80_Model_3_01.gif);
+    background-repeat: no-repeat;
     background-size: 100%;
-    background-position:center;
-    margin:0 auto;
-    display:none;
-
-
-
+    background-position: center;
+    margin: 0 auto;
+    display: none;
 }
-
 .boxSlider {
     width: 200px;
     height: 240px;
-    display:block;
-    color:white;
-    background-color:black;
-    position:absolute;
+    display: block;
+    color: white;
+    background-color: black;
+    position: absolute;
     border-radius: 10px;
-
 }
-
 .boxSlider h2 {
-    text-align:center;
+    text-align: center;
     font-family: orbitron, sans-serif;
-    color:red;
-    margin-top:80px;
+    color: red;
+    margin-top: 80px;
 }
-
 .boxSlider p {
     width: 90%;
-    margin:auto;
+    margin: auto;
     font-size: 16px;
     font-family: lekton, sans-serif;
-    display:none;
+    display: none;
 }
-
 #shell {
-    top:10px;
-    left:100px;
-    display:none;
+    top: 10px;
+    left: 100px;
+    display: none;
 }
-
 #colorScreen {
     top: 300px;
-    left:100px;
-     display:none;
+    left: 100px;
+    display: none;
 }
-
 #memory {
     top: 10px;
     right: 120px;
-     display:none;
+    display: none;
 }
-
 #floppyDrive {
     top: 300px;
     right: 120px;
-     display:none;
+    display: none;
 }
-
 #imageSubHeading {
     width: 900px;
     margin-top: 50px;
 }
-
 #imageSubHeading span {
- font-size: 40px;
+    font-size: 40px;
 }
-
 footer {
-    height:100px;
+    height: 100px;
     width: 100%;
-    margin:auto;
-    background:linear-gradient(white, black 90%);
+    margin: auto;
+    background: linear-gradient(white, black 30%);
     margin-top: 200px;
-    text-align:center;
+    text-align: center;
 }
-
 footer p {
     font-family: lekton, helvetica, sans-serif;
-    color:white;
+    color: white;
     padding-top: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -323,14 +257,12 @@ footer p {
     /* IE 6/7 fallback */
     *text-indent: -9999px;
 }
-
 .ir:before {
     content: "";
     display: block;
     width: 0;
     height: 150%;
 }
-
 /*
  * Hide from both screenreaders and browsers: h5bp.com/u
  */
@@ -339,7 +271,6 @@ footer p {
     display: none !important;
     visibility: hidden;
 }
-
 /*
  * Hide only visually, but have it available for screenreaders: h5bp.com/v
  */
@@ -354,7 +285,6 @@ footer p {
     position: absolute;
     width: 1px;
 }
-
 /*
  * Extends the .visuallyhidden class to allow the element to be focusable
  * when navigated to via the keyboard: h5bp.com/p
@@ -369,7 +299,6 @@ footer p {
     position: static;
     width: auto;
 }
-
 /*
  * Hide visually and from screenreaders, but maintain layout
  */
@@ -377,7 +306,6 @@ footer p {
 .invisible {
     visibility: hidden;
 }
-
 /*
  * Clearfix: contain floats
  *
@@ -392,14 +320,14 @@ footer p {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+    content: " ";
+    /* 1 */
+    display: table;
+    /* 2 */
 }
-
 .clearfix:after {
     clear: both;
 }
-
 /*
  * For IE 6/7 only
  * Include this rule to trigger hasLayout and contain floats.
@@ -408,7 +336,6 @@ footer p {
 .clearfix {
     *zoom: 1;
 }
-
 /* ==========================================================================
    EXAMPLE Media Queries for Responsive Design.
    These examples override the primary ('mobile first') styles.
@@ -418,14 +345,12 @@ footer p {
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
 }
-
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
     /* Style adjustments for high resolution devices */
 }
-
 /* ==========================================================================
    Print styles.
    Inlined to avoid required HTTP connection: h5bp.com/r
@@ -434,72 +359,61 @@ footer p {
 @media print {
     * {
         background: transparent !important;
-        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        color: #000 !important;
+        /* Black prints faster: h5bp.com/s */
         box-shadow: none !important;
         text-shadow: none !important;
     }
-
     a,
     a:visited {
         text-decoration: underline;
     }
-
     a[href]:after {
-        content: " (" attr(href) ")";
+        content: " (" attr(href)")";
     }
-
     abbr[title]:after {
-        content: " (" attr(title) ")";
+        content: " (" attr(title)")";
     }
-
     /*
      * Don't show links for images, or javascript/internal links
      */
-
     .ir a:after,
     a[href^="javascript:"]:after,
     a[href^="#"]:after {
         content: "";
     }
-
     pre,
     blockquote {
         border: 1px solid #999;
         page-break-inside: avoid;
     }
-
     thead {
-        display: table-header-group; /* h5bp.com/t */
+        display: table-header-group;
+        /* h5bp.com/t */
     }
-
     tr,
     img {
         page-break-inside: avoid;
     }
-
     img {
         max-width: 100% !important;
     }
-
     @page {
         margin: 0.5cm;
     }
-
     p,
     h2,
     h3 {
         orphans: 3;
         widows: 3;
     }
-
     h2,
     h3 {
         page-break-after: avoid;
     }
 }
-
 #color-screen {
-    position:relative;
+    position: relative;
     top: 0px;
-    left:10px;
+    left: 10px;
 }
