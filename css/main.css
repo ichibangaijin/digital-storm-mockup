@@ -234,7 +234,7 @@ footer {
     width: 100%;
     margin: auto;
     background: linear-gradient(white, black 30%);
-    margin-top: 200px;
+    margin-top: 150px;
     text-align: center;
 }
 footer p {
@@ -242,6 +242,34 @@ footer p {
     color: white;
     padding-top: 50px;
 }
+
+#color-screen {
+    position: relative;
+    top: 0px;
+    left: 10px;
+}
+
+#notActual {
+    display:none;
+    font-family: lekton;
+    text-align:center;
+    margin-bottom:10px;
+    }
+#notActual a {
+    color:blue;
+}
+
+#spaceInvaders {
+    text-align:center;
+    display:none;
+}
+
+#spaceInvaders img {
+    width: 300px;
+
+
+}
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -412,8 +440,4 @@ footer p {
         page-break-after: avoid;
     }
 }
-#color-screen {
-    position: relative;
-    top: 0px;
-    left: 10px;
-}
+

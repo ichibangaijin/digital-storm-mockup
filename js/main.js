@@ -9,11 +9,16 @@ $(document).ready(function () {
                 "margin-top": "10px"
             }, 700, function(){showPara(target);});
         });
-    });
+        $("#notActual").click(function(event){
+            event.preventDefault();
+            $("#spaceInvaders").slideToggle(1000, closeScreen);
+        });
+});
 
 
 function showPic(){
     $("#main-image-alternate").show();
+    $("#notActual").show();
     $("#supercharged").hide();
     $("#shell, #colorScreen, #memory, #floppyDrive").fadeIn(3000);
 }
@@ -22,5 +27,7 @@ function showPic(){
 function showPara(target) {
     target.show(800);
 }
-
+ function closeScreen() {
+    $("#notActual").text("Beautiful EGA graphics, nothing even comes close.");
+ }
 
