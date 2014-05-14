@@ -28,6 +28,6 @@ function showPara(target) {
     target.show(800);
 }
  function closeScreen() {
-    $("#notActual").text("Beautiful EGA graphics, nothing even comes close.");
+    $("#notActual").text("Beautiful CGA graphics, nothing even comes close.");
  }
 
