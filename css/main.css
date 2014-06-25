@@ -206,22 +206,22 @@ button#supercharged:hover {
     display: none;
 }
 #shell {
-    top: 10px;
+    top: 400px;
     left: 100px;
     display: none;
 }
 #colorScreen {
-    top: 180px;
+    top: 230px;
     left: 100px;
     display: none;
 }
 #memory {
-    top: 10px;
+    top: 400px;
     right: 120px;
     display: none;
 }
 #floppyDrive {
-    top: 180px;
+    top: 230px;
     right: 120px;
     display: none;
 }
