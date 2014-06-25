@@ -90,12 +90,13 @@ textarea {
 
 html {
     width: 100%;
-    min-width: 1200px;
-    height: auto;
+
 }
 #main-wrapper {
-    width: 1200px;
-    margin: auto;
+    min-width: 950px;
+    max-width: 1120px;
+    height: auto;
+    margin:auto;
     position: relative;
 }
 a {
@@ -135,35 +136,35 @@ nav li {
 header h1 {
     font-family: orbitron, verdana, sans-serif;
     color: #2f2e2e;
-    font-size: 50px;
+    font-size: 2.5em;
     text-align: center;
 }
-h3 {
+header h3 {
     font-family: lekton, sans-serif;
     color: #4d4444;
-    font-size: 25px;
+    font-size: 1.3em;
     width: 60%;
     margin: auto;
 }
-#supercharged {
-    font-size: 25px;
+button#supercharged {
+    font-size: 1em;
     font-family: lekton;
     display: block;
     color: white;
     background-color: #345479;
-    padding: 12px;
+    padding: 9px;
     margin: auto;
-    width: 200px;
+    width: 150px;
     box-shadow: 2px 2px 5px black;
     border-radius: 2px;
 }
-#supercharged:hover {
-    background-color: ;
+button#supercharged:hover {
+    background-color: grey ;
 }
 #main-image {
     display: block;
-    width: 600px;
-    height: 500px;
+    width: 350px;
+    height:350px;
     background-image: url(../img/oldtrs80.gif);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -171,18 +172,18 @@ h3 {
     margin: 0 auto;
 }
 #main-image-alternate {
-    width: 600px;
-    height: 600px;
+    width: 350px;
+    height:350px;
     background-image: url(../img/TRS-80_Model_3_01.gif);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center;
     margin: 0 auto;
-    display: none;
-}
+    display:none;
+ }
 .boxSlider {
     width: 200px;
-    height: 240px;
+    height: 150px;
     display: block;
     color: white;
     background-color: black;
@@ -192,13 +193,14 @@ h3 {
 .boxSlider h2 {
     text-align: center;
     font-family: orbitron, sans-serif;
+    margin-top: 55px;
     color: red;
-    margin-top: 80px;
+    font-size: 18px;
 }
 .boxSlider p {
     width: 90%;
     margin: auto;
-    font-size: 16px;
+    font-size: 12px;
     font-family: lekton, sans-serif;
     display: none;
 }
@@ -208,7 +210,7 @@ h3 {
     display: none;
 }
 #colorScreen {
-    top: 300px;
+    top: 180px;
     left: 100px;
     display: none;
 }
@@ -218,23 +220,33 @@ h3 {
     display: none;
 }
 #floppyDrive {
-    top: 300px;
+    top: 180px;
     right: 120px;
     display: none;
 }
 #imageSubHeading {
-    width: 900px;
+    width: 60%;
     margin-top: 0;
 }
 #imageSubHeading span {
     font-size: 40px;
 }
+
+h3#imageSubHeading{
+
+    font-family: lekton, sans-serif;
+    color: #4d4444;
+    font-size: 1.3em;
+    width: 60%;
+    margin: auto;
+}
+
 footer {
     height: 100px;
     width: 100%;
     margin: auto;
     background: linear-gradient(white, black 30%);
-    margin-top: 150px;
+    margin-top: 60px;
     text-align: center;
 }
 footer p {

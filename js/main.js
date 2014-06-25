@@ -7,7 +7,7 @@ $(document).ready(function () {
             var h2 = $(this).find('h2');
             h2.animate({
                 "margin-top": "10px"
-            }, 700, function(){showPara(target);});
+            }, 300, function(){showPara(target);});
         });
         $("#notActual").click(function(event){
             event.preventDefault();
@@ -16,11 +16,11 @@ $(document).ready(function () {
 });
 
 
-function showPic(){
+function showPic() {
     $("#main-image-alternate").show();
     $("#notActual").show();
     $("#supercharged").hide();
-    $("#shell, #colorScreen, #memory, #floppyDrive").fadeIn(3000);
+    $("#shell, #colorScreen, #memory, #floppyDrive").fadeIn(400);
 }
 
 
