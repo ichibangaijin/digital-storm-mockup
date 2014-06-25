@@ -112,6 +112,7 @@ hr {
 }
 nav#navbar {
     width: 100%;
+    min-width: 900px;
     display: block;
     height: 100px;
     background: linear-gradient(black 65%, white);
@@ -244,6 +245,7 @@ h3#imageSubHeading{
 footer {
     height: 100px;
     width: 100%;
+    min-width: 900px;
     margin: auto;
     background: linear-gradient(white, black 30%);
     margin-top: 60px;
